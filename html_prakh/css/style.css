@@ -1,0 +1,98 @@
+div{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+h2{
+    margin-bottom: 1.2em;
+}
+#logo{
+    position: relative;
+    z-index: 4;
+    font-size: 18px;
+    background-color: white;
+    color: #282A35;
+    padding-left: 12px;
+    padding-right: 16px;
+    margin-top: 10px;
+   
+}
+#logo #insidelogo{
+    padding: 8px 16px;
+    float: left;
+    display: flex;
+    outline: 0;
+    width: 102%;
+    margin-left: -11px;
+    border-bottom: 2px solid #000;
+}
+#logo .title{
+    text-transform:capitalize;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+#logo img{
+    width:120%;
+}
+nav{
+    overflow: auto;
+    border-bottom: 2px solid black;
+
+  
+}
+.nav-item{
+    font-size: 30px;
+    text-decoration: underline;
+   
+}
+main {
+    padding: 16px 32px 32px 32px;
+    border-right: 1px solid #f1f1f1;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.intro{
+    font-size: 22px;
+}
+p{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+li{
+    font-size: 1.1rem;
+}
+a{
+    color: #000;
+
+}
+#element{
+    font-size:20px;
+    padding:10px;
+    margin-bottom:10px;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    width: 100%;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr{
+    border-bottom: 1px solid #ddd
+  }
+  
+
